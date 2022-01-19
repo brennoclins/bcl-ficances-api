@@ -8,7 +8,7 @@ app.use(express.json());
 const customers = [];
 
 app.post("/account", (request, response) => {
-  const {cpf, name } = request.params;
+  const {cpf, name } = request.body;
   
   const customersAlreadyExists = customers.some(
     customer => customer.cpf === cpf
@@ -26,6 +26,14 @@ app.post("/account", (request, response) => {
   });
   
   return response.status(201).send();
+});
+
+app.get("/statement/:cpf", (request, response) => {
+  const { cpf }= request.params;
+  
+  const customerFound = customers.find((customer) => customer.cpf === cpf);
+  
+  return response.json(customerFound.statement);
 });
 
 app.listen(3333);
