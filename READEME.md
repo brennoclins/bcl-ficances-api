@@ -10,8 +10,9 @@ API para aplicações financeiras
 -[x] Buscar o extrato bancário do cliente
 -[x] Realizar um depósito
 -[x] Realizar um saque
--[] Buscar o extrato bancário do cliente por data
--[] Atualizar dados da conta do cliente
+-[x] Buscar o extrato bancário do cliente por data
+-[x] Atualizar dados da conta do cliente
+-[x] Obter os dados da conta
 -[] Deletar uma conta
 
 ### Regras de negócio
