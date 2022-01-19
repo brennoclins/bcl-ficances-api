@@ -13,7 +13,7 @@ API para aplicações financeiras
 -[x] Buscar o extrato bancário do cliente por data
 -[x] Atualizar dados da conta do cliente
 -[x] Obter os dados da conta
--[] Deletar uma conta
+-[x] Deletar uma conta
 
 ### Regras de negócio
 
@@ -22,7 +22,7 @@ API para aplicações financeiras
 -[x] Não deve buscar extrato em uma conta não existente
 -[x] Não deve fazer saques em uma conta que não existe
 -[x] Não deve fazer saques quando o saldo for insuficiente
--[] Não deve excluir uma conta não existente
+-[x] Não deve excluir uma conta não existente
 
 ### Instalação
 
