@@ -8,7 +8,7 @@ API para aplicações financeiras
 
 -[x] Criar uma conta
 -[x] Buscar o extrato bancário do cliente
--[] Realizar um depósito
+-[x] Realizar um depósito
 -[] Realizar um saque
 -[] Buscar o extrato bancário do cliente por data
 -[] Atualizar dados da conta do cliente
@@ -18,7 +18,7 @@ API para aplicações financeiras
 
 -[x] Não deve cadastrar uma conta com CPF já existente
 -[x] Não deve fazer depósito em uma conta não existente
--[] Não deve buscar extrato em uma conta não existente
+-[x] Não deve buscar extrato em uma conta não existente
 -[] Não deve fazer saques em uma conta que não existe
 -[] Não deve excluir uma conta não existente
 -[] Não deve fazer saques quando o saldo for insuficiente
